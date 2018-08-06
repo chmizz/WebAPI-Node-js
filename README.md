@@ -9,17 +9,30 @@ Application details
 
 ## Setup
 
-* Install mongoose (version 5.0.0)
+* Install mongoose :
 
 ```
 npm install mongoose
 ```
+  * Link application to local MongoDB
+  change the following server.js files
+  ```
+  mongoose.connect('mongodb://localhost/Tododb')
+  ```
 
+* Install express :
+
+```
+npm install express
+```
+
+
+## API
 HTTP verb | URI | Action
 ------------- | ------------- |-------------
 GET | /tasks | list all task
 GET | /tasks/id | get task with ID
 POST | /task | create a new task
 PUT | /tasks/id | modify task with ID
-POST | /tasks/status | modify staus task with ID
+POST | /tasks/status | modify status task with ID
 DELETE | /tasks/ID | delete task with ID
