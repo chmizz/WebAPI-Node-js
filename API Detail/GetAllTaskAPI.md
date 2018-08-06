@@ -27,22 +27,22 @@
     **Content:** 
     ```
     [
-      {
+       {
           "status": [
               "done"
           ],
           "_id": "5b67fa167be217363055901e",
-          "name": "Design UX/UI",
-          "created_date": "2018-08-06T07:34:46.198Z",
+          "subject": "Design UX/UI",
+          "detail": "Design UX/UI",
           "__v": 0
       },
       {
           "status": [
-              "doing"
+              "pending"
           ],
           "_id": "5b67fa167be217363055901f",
-          "name": "Design database",
-          "created_date": "2018-08-06T07:34:46.199Z",
+          "subject": "Design UX/UI",
+          "detail": "Design UX/UI",
           "__v": 0
       }
     ]
