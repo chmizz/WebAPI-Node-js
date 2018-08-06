@@ -1,6 +1,6 @@
 **Delete**
 ----
-  Delete a task by ID.
+  Delete a task form the list.
 
 * **URL**
     ```
