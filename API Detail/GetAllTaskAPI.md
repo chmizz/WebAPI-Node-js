@@ -1,4 +1,4 @@
-**Sample**
+**All Tasks**
 ----
   Returns json data about all task.
 

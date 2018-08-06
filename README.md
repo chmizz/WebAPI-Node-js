@@ -39,10 +39,10 @@ PUT | /tasks/status/id | modify status task with ID
 DELETE | /tasks/id | delete task with ID
 
 * Detail API
-  * [Sample Data API](https://github.com/chmizz/WebAPI-Node-js/tree/Dev/API%20Detail)
-  * [Get All API](https://github.com/chmizz/WebAPI-Node-js/tree/Dev/API%20Detail)
-  * [Get Some Task API](https://github.com/chmizz/WebAPI-Node-js/tree/Dev/API%20Detail)
-  * [Create a Task API](https://github.com/chmizz/WebAPI-Node-js/tree/Dev/API%20Detail)
-  * [Update a Task API](https://github.com/chmizz/WebAPI-Node-js/tree/Dev/API%20Detail)
-  * [Update Status in a Task API](https://github.com/chmizz/WebAPI-Node-js/tree/Dev/API%20Detail)
-  * [Delete a Task API](https://github.com/chmizz/WebAPI-Node-js/tree/Dev/API%20Detail)
+  * [Sample Data API](https://github.com/chmizz/WebAPI-Node-js/blob/Dev/API%20Detail/SampleAPI.md)
+  * [Get All API](https://github.com/chmizz/WebAPI-Node-js/blob/Dev/API%20Detail/GetAllTaskAPI.md)
+  * [Get Some Task API](https://github.com/chmizz/WebAPI-Node-js/blob/Dev/API%20Detail/GetSomeTaskAPI.md)
+  * [Create a Task API](https://github.com/chmizz/WebAPI-Node-js/blob/Dev/API%20Detail/CreateTaskAPI.md)
+  * [Update a Task API](https://github.com/chmizz/WebAPI-Node-js/blob/Dev/API%20Detail/UpdateTaskAPI.md)
+  * [Update Status in a Task API](https://github.com/chmizz/WebAPI-Node-js/blob/Dev/API%20Detail/UpdateStatusTaskAPI.md)
+  * [Delete a Task API](https://github.com/chmizz/WebAPI-Node-js/blob/Dev/API%20Detail/DeleteTaskAPI.md)
