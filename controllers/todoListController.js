@@ -7,7 +7,7 @@ var mongoose = require('mongoose'),
 
 exports.sample_tasks = function (req, res) {
     var arr = [{ name: 'Design UX/UI', status: 'done' },
-    { name: 'Design database', status: 'doing' },
+    { name: 'Design database', status: 'done' },
     { name: 'Design Web API' },
     { name: 'Create Web API' }
     ];

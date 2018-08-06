@@ -1,6 +1,6 @@
 **Update Status**
 ----
-  Returns json data about a task with update status.
+  Set the task status.
 
 * **URL**
     ```

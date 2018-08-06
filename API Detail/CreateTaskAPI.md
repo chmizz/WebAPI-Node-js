@@ -1,6 +1,6 @@
 **Create**
 ----
-  Returns json data about a task with create.
+  Add a task to the list
 
 * **URL**
     ```
@@ -20,7 +20,8 @@
 * **Data Params**
 
   ```
-    name="string",
+    subject="string",
+    detail="string",
     status=[enum string],
   ```
 
@@ -34,12 +35,11 @@
               "done"
           ],
           "_id": "5b67fa167be217363055901e",
-          "name": "Design UX/UI",
-          "created_date": "2018-08-06T07:34:46.198Z",
+          "subject": "Design UX/UI",
+          "detail": "Design UX/UI",
           "__v": 0
       }
     ```
- 
 * **Error Response:**
 
   * **Code:** 400 Bad Request <br />
