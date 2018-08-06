@@ -26,13 +26,26 @@
   * **Code:** 200 OK<br />
     **Content:** 
     ```
-    {
-        "status": ["done"],
-        "_id": "5b67fb8c4fb3e116e493df55",
-        "name": "Create database",
-        "created_date": "2018-08-06T07:41:00.250Z",
-        "__v": 0
-    }
+     [
+       {
+          "status": [
+              "done"
+          ],
+          "_id": "5b67fa167be217363055901e",
+          "subject": "Design UX/UI",
+          "detail": "Design UX/UI",
+          "__v": 0
+      },
+      {
+          "status": [
+              "pending"
+          ],
+          "_id": "5b67fa167be217363055901f",
+          "subject": "Design UX/UI",
+          "detail": "Design UX/UI",
+          "__v": 0
+      }
+    ]
     ```
  
 * **Error Response:**
