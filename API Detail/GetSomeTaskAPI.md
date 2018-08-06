@@ -39,8 +39,8 @@
  
 * **Error Response:**
 
-  * **Code:** 403 Forbidden <br />
-    **Content:** `{ error : "Can't create tasks." }`
+  * **Code:** 404 Not Found <br />
+    **Content:** `{ error : "Task not found." }`
 
 * **Sample Call:**
 

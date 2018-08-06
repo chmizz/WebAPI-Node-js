@@ -51,7 +51,7 @@
 * **Error Response:**
 
   * **Code:** 403 Forbidden <br />
-    **Content:** `{ error : "Can't get tasks." }`
+    **Content:** `{ error : "Task doesn't exist." }`
 
 * **Sample Call:**
 
