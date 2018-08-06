@@ -41,8 +41,8 @@
               "pending"
           ],
           "_id": "5b67fa167be217363055901f",
-          "subject": "Design UX/UI",
-          "detail": "Design UX/UI",
+          "subject": "Design Database",
+          "detail": "Design database and design diagram",
           "__v": 0
       }
     ]
