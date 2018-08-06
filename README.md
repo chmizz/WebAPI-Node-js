@@ -15,7 +15,7 @@ Application details
 npm install mongoose
 ```
   * Link application to local MongoDB
-  change the following server.js files
+  change the following ```server.js``` files :
   ```
   mongoose.connect('mongodb://localhost/Tododb')
   ```
@@ -35,5 +35,5 @@ GET | /tasks | list all task
 GET | /tasks/id | get task with ID
 POST | /task | create a new task
 PUT | /tasks/id | modify task with ID
-PUT | /tasks/status | modify status task with ID
-DELETE | /tasks/ID | delete task with ID
+PUT | /tasks/status/id | modify status task with ID
+DELETE | /tasks/id | delete task with ID
