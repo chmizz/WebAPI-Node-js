@@ -1,10 +1,10 @@
-**Sample**
+**Get A Task**
 ----
-  Create data tasks.Returns json data about all task.
+  Returns json data about a task by Id.
 
 * **URL**
     ```
-    /
+    /tasks
     ```
 
 * **Method:**
@@ -15,7 +15,7 @@
 
    **Required:**
  
-   None
+   `id=[string]`
 
 * **Data Params**
 
@@ -26,13 +26,15 @@
   * **Code:** 200 <br />
     **Content:** 
     ```
-    {
-        "status": ["done"],
-        "_id": "5b67fb8c4fb3e116e493df55",
-        "name": "Create database",
-        "created_date": "2018-08-06T07:41:00.250Z",
-        "__v": 0
-    }
+      {
+          "status": [
+              "done"
+          ],
+          "_id": "5b67fa167be217363055901e",
+          "name": "Design UX/UI",
+          "created_date": "2018-08-06T07:34:46.198Z",
+          "__v": 0
+      }
     ```
  
 * **Error Response:**
@@ -43,5 +45,5 @@
 * **Sample Call:**
 
   ```
-   http://localhost:5000/
+   http://localhost:5000/tasks
   ```
