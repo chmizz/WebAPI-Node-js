@@ -1,6 +1,6 @@
 **Get A Task**
 ----
-  Returns json data about a task by Id.
+  View a single task in the list.
 
 * **URL**
     ```
