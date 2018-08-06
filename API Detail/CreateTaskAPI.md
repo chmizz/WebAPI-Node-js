@@ -20,13 +20,13 @@
 * **Data Params**
 
   ```
-    name=[string],
-    status=[string],
+    name="string",
+    status=[enum string],
   ```
 
 * **Success Response:**
 
-  * **Code:** 200 <br />
+  * **Code:** 200 OK<br />
     **Content:** 
     ```
       {

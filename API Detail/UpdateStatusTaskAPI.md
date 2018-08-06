@@ -15,15 +15,15 @@
 
    **Required:**
  
-   `id=[string]`
+   `id="string"`
 
 * **Data Params**
 
-  `status=[string]`
+  `status=[enum string]`
 
 * **Success Response:**
 
-  * **Code:** 200 <br />
+  * **Code:** 200 OK<br />
     **Content:** 
     ```
       {

@@ -15,7 +15,7 @@
 
    **Required:**
  
-   `id=[string]`
+   `id="string"`
 
 * **Data Params**
 
@@ -23,7 +23,7 @@
 
 * **Success Response:**
 
-  * **Code:** 200 <br />
+  * **Code:** 200 OK<br />
     **Content:** 
     ```
       {
