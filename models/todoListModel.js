@@ -2,7 +2,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-const statuslst = Object.freeze({
+var statusLst = Object.freeze({
     Doing: 'doing',
     Done: 'done',
     Pending: 'pending',
@@ -20,9 +20,9 @@ var TaskSchema = new Schema({
     status: {
         type: [{
             type: String,
-            enum: Object.values(statuslst)
+            enum: Object.values(statusLst)
         }],
-        default: ['pending']
+        default: statusLst.Pending
     }
 });
 

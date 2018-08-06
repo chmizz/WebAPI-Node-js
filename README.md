@@ -30,9 +30,10 @@ npm install express
 ## API
 HTTP verb | URI | Action
 ------------- | ------------- |-------------
+GET | / | sample tasks
 GET | /tasks | list all task
 GET | /tasks/id | get task with ID
 POST | /task | create a new task
 PUT | /tasks/id | modify task with ID
-POST | /tasks/status | modify status task with ID
+PUT | /tasks/status | modify status task with ID
 DELETE | /tasks/ID | delete task with ID
