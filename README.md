@@ -37,3 +37,12 @@ POST | /task | create a new task
 PUT | /tasks/id | modify task with ID
 PUT | /tasks/status/id | modify status task with ID
 DELETE | /tasks/id | delete task with ID
+
+* Detail API
+  * [Sample Data API](https://github.com/chmizz/WebAPI-Node-js/tree/Dev/API%20Detail)
+  * [Get All API](https://github.com/chmizz/WebAPI-Node-js/tree/Dev/API%20Detail)
+  * [Get Some Task API](https://github.com/chmizz/WebAPI-Node-js/tree/Dev/API%20Detail)
+  * [Create a Task API](https://github.com/chmizz/WebAPI-Node-js/tree/Dev/API%20Detail)
+  * [Update a Task API](https://github.com/chmizz/WebAPI-Node-js/tree/Dev/API%20Detail)
+  * [Update Status in a Task API](https://github.com/chmizz/WebAPI-Node-js/tree/Dev/API%20Detail)
+  * [Delete a Task API](https://github.com/chmizz/WebAPI-Node-js/tree/Dev/API%20Detail)
