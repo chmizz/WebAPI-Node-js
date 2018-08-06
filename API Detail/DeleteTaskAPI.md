@@ -33,7 +33,7 @@
  
 * **Error Response:**
 
-  * **Code:** 403 Forbidden <br />
+  * **Code:** 400 Bad Request <br />
     **Content:** `{ error : "Can't delete tasks." }`
 
 * **Sample Call:**

@@ -50,7 +50,7 @@
  
 * **Error Response:**
 
-  * **Code:** 403 Forbidden <br />
+  * **Code:** 400 Bad Request <br />
     **Content:** `{ error : "Task doesn't exist." }`
 
 * **Sample Call:**
