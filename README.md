@@ -31,18 +31,18 @@ npm install express
 HTTP verb | URI | Action
 ------------- | ------------- |-------------
 GET | / | sample tasks
-GET | /tasks | list all task
-GET | /tasks/id | get task with ID
-POST | /task | create a new task
-PUT | /tasks/id | modify task with ID
-PUT | /tasks/status/id | modify status task with ID
-DELETE | /tasks/id | delete task with ID
+GET | /tasks | view all item in the list
+GET | /tasks/id | view a single task in the list by id
+POST | /task | add a task to the list
+PUT | /tasks/id | edit existing task by id
+PUT | /tasks/status/id | set the task status by id
+DELETE | /tasks/id | delete a task from the list by id
 
 * Detail API
   * [Sample Data API](https://github.com/chmizz/WebAPI-Node-js/blob/Dev/API%20Detail/SampleAPI.md)
   * [Get All API](https://github.com/chmizz/WebAPI-Node-js/blob/Dev/API%20Detail/GetAllTaskAPI.md)
-  * [Get Some Task API](https://github.com/chmizz/WebAPI-Node-js/blob/Dev/API%20Detail/GetSomeTaskAPI.md)
-  * [Create a Task API](https://github.com/chmizz/WebAPI-Node-js/blob/Dev/API%20Detail/CreateTaskAPI.md)
+  * [Get a Task API](https://github.com/chmizz/WebAPI-Node-js/blob/Dev/API%20Detail/GetSomeTaskAPI.md)
+  * [Add Task API](https://github.com/chmizz/WebAPI-Node-js/blob/Dev/API%20Detail/CreateTaskAPI.md)
   * [Update a Task API](https://github.com/chmizz/WebAPI-Node-js/blob/Dev/API%20Detail/UpdateTaskAPI.md)
-  * [Update Status in a Task API](https://github.com/chmizz/WebAPI-Node-js/blob/Dev/API%20Detail/UpdateStatusTaskAPI.md)
+  * [Set The Task Status API](https://github.com/chmizz/WebAPI-Node-js/blob/Dev/API%20Detail/UpdateStatusTaskAPI.md)
   * [Delete a Task API](https://github.com/chmizz/WebAPI-Node-js/blob/Dev/API%20Detail/DeleteTaskAPI.md)
