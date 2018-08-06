@@ -1,6 +1,6 @@
 **Create**
 ----
-  Returns json data about a task with create.
+  Add a task to the list
 
 * **URL**
     ```
