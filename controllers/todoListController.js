@@ -7,9 +7,9 @@ var mongoose = require('mongoose'),
 
 exports.sample_tasks = function (req, res) {
     var arr = [{ subject: 'Design UX/UI',detail:'Design UX/UI', status: 'done' },
-    { subject: 'Design database',detail:'Design database', status: 'done' },
+    { subject: 'Design database',detail:'Design database and diagram', status: 'done' },
     { subject: 'Design Web API',detail:'Design Web API' },
-    { subject: 'Create Web API',detail:'Create Web API and Config' }
+    { subject: 'Create Web API',detail:'Create Web API and config file' }
     ];
     Task.insertMany(arr, function (err, task) {
         if (err)
