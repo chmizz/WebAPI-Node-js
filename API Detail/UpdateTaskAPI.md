@@ -1,6 +1,6 @@
 **Update**
 ----
-  Returns json data about a task with update.
+  Edit exiting task.
 
 * **URL**
     ```
