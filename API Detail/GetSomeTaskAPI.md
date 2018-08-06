@@ -4,7 +4,7 @@
 
 * **URL**
     ```
-    /tasks
+    /tasks/id
     ```
 
 * **Method:**
